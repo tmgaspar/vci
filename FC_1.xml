@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2022-03-14T09:18:12.6054493Z</Created>
+    <Created>2022-03-14T09:54:28.9390627Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -93,7 +93,9 @@
       </Symbol>
     </Access>
     <Part Name="Contact" UId="24" />
-    <Part Name="Contact" UId="25" />
+    <Part Name="Contact" UId="25">
+      <Negated Name="operand" />
+    </Part>
     <Part Name="Coil" UId="26" />
   </Parts>
   <Wires>
